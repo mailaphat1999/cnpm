@@ -1,0 +1,106 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.content-login{
+    width: 100%;
+}
+.form-login-regeter{
+    width: 500px;
+    float: left;
+    clear: right;
+}
+
+
+.login-geter{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.login-geter:hover{
+    /*box-shadow: 1px 5px 3px 2px #ff3300;*/
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+
+    background-color: #ffffff;
+    padding: 8px 3px 5px;
+    border-radius: 5px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+    /*margin-top: 50px;*/
+}
+
+.login-buton {
+    background-color: #ff3300;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-buton:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+.container-loginadd{
+    /*float: left;*/
+    margin-top: 16px;
+}
+.container-loginadd .adpsw {
+    margin-right:5px ;
+    float: right;
+    /*padding-top: 16px;*/
+}
+.cancelbtn{
+    float: left;
+    clear: right;
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+}
+footer{
+    float: left;
+    width: 100%;
+}
+.left-login{
+    width: 400px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+    clear: right;
+}
+.right-login{
+    width: 400px;
+    margin-top: 30px;
+    height: 600px;
+    margin-left: 27px;
+    float: left;
+    clear: right;
+}

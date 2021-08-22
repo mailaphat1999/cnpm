@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bread-crumb .checkbox-form input{
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 1px 1px #e5e5e5;
+
+}
+.bread-crumb .checkbox-form select{
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 1px 1px #e5e5e5;
+}
+.bread-crumb .row .col-12 form{
+    float: left;
+    margin-left: 50px;
+}
+.bread-crumb .col-lg-6 .your-order{
+    background: #F2F2F2;
+}
+.bread-crumb .col-lg-6 .your-order h3{
+    margin-left: 50px;
+}
+.bread-crumb .col-lg-6 .your-order .your-order-table{
+    margin-left: 30px;
+}
+.bread-crumb .col-lg-6 .your-order table{
+    border: 1px solid #8c8c8c;
+}
+.bread-crumb .col-lg-6 .your-order thead tr th{
+    border: 1px solid #8c8c8c;
+}
+.bread-crumb .col-lg-6 .your-order tbody tr td {
+    border: 1px solid #8c8c8c;
+}
+.bread-crumb .col-lg-6 .your-order tfoot tr th {
+    border: 1px solid #8c8c8c;
+}
+.bread-crumb .col-lg-6 .your-order thead tr td {
+    border: 1px solid #8c8c8c;
+}
+.bread-crumb .col-lg-6 .your-order .payment-method{
+    margin-left: 30px;
+}
+.bread-crumb .col-lg-6 .your-order .order-button-payment {
+    margin-top: 30px;
+    text-align: center;
+}
+.bread-crumb .col-lg-6 .your-order .order-button-payment input{
+    width: 300px;
+    background: red;
+    color: #F2F2F2;
+}
